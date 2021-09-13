@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Блог</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div id="nameAndSocial">
+                <a href="" id="title">
+                    <span class="blue bigLet">M</span><span class="green bigLet">a</span><span
+                        class="blue bigLet">g</span><span class="green smallLet">B</span><span
+                        class="blue smallLet">l</span><span class="green smallLet">o</span><span
+                        class="blue smallLet">g</span>
+                </a>
+                <form action="" id="search"><input type="text" required><button type="submit"
+                        class="blue titlesStyle">Search</button>
+                </form>
+                <ul id="socialNet">
+                    <li class="orange"><a href=""> </a></li>
+                    <li class="darkBlue"><a href=""> </a></li>
+                    <li class="blue"><a href=""> </a></li>
+                </ul>
+            </div>
+
+            <nav id="mainNav">
+                <button id="openMenu">
+                    <img src="img/redstring.png" alt="">
+                    <img src="img/redstring.png" alt="">
+                    <img src="img/redstring.png" alt="">
+                </button>
+                <ul id="navigation">
+                    <li class="blue"><a href="" class="titlesStyle">Home</a></li>
+                    <li class="green"><a href="" class="titlesStyle">cinema</a></li>
+                    <li class="darkBlue"><a href="" class="titlesStyle">Magazine</a></li>
+                    <li class="blue"><a href="" class="titlesStyle">Cssauthor.com</a></li>
+                    <li class="orange"><a href="" class="titlesStyle">Topmenu</a></li>
+                    <li class="red"><a href="" class="titlesStyle">Archives </a></li>
+                    <li class="gray"><a href="" class="titlesStyle">Contact us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <div id="middleBlock">
+
+            <nav id="topStories">
+                <img id="blueArrowLeft" src="img/bluearrowleft.png" alt="blueArrowLeft">
+                <img id="pinkArrowRigth" src="img/pinkarrowrigth.png" alt="pinkArrowRigth">
+
+                <ul>
+                    <li>
+                        <img src="img/CINEMA.png" alt="CINEMA">
+                        <a class="blue titlesStyle " href="">cinema</a>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+
+                    </li>
+                    <li>
+                        <img src="img/TRAVEL.png" alt="TRAVEL">
+                        <a class="orange titlesStyle " href="">travel</a>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                    </li>
+                    <li>
+                        <img src="img/TELEVISION.png" alt="TELEVISION">
+                        <a class="pink titlesStyle " href="">television</a>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                    </li>
+                    <li>
+                        <img src="img/TELEVISION.png" alt="Fashion">
+                        <a class="green titlesStyle" href="">Fashion</a>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                    </li>
+                    <li>
+                        <img src="img/TELEVISION.png" alt="games">
+                        <a class="titlesStyle darkBlue" href="">games</a>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                    </li>
+                </ul>
+            </nav>
+
+
+
+
+            <main>
+                <article id="mainNews">
+                    <h1><a href="">Lorem Ipsum is simply dummy text of the printing</a></h1>
+                    <div id="date"><span>28</span><span>FEB</span></div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                        galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five
+                        centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing</p>
+                    <ul id="galeryOfNews">
+                        <li><img src="img/1big.jpg" alt="BigPic"></li>
+                        <li><a href="img/1big.jpg"></a><img src="img/1small.jpg" alt="1smallPic"></li>
+                        <li><a href="img/2big.jpg"></a><img src="img/2small.jpg" alt="2smallPic"></li>
+                        <li><a href="img/3big.jpg"></a><img src="img/3small.jpg" alt="3smallPic"></li>
+                        <li><a href="img/4big.jpg"></a><img src="img/4small.jpg" alt="3smallPic"></li>
+                    </ul>
+                    <div id="additionPanel" hidden>
+                        <div id="relatedAtricles">
+                            <h2 class="titlesStyle bigTitleStyle bigTitleStyle--smallLet">related atricles</h2>
+                            <ul id="relatedAtricleList">
+                                <li><a href="">Lorem Ipsum is simply dummy text</a></li>
+                                <li><a href="">Lorem Ipsum is simply dummy text</a></li>
+                                <li><a href="">Lorem Ipsum is simply dummy text</a></li>
+                                <li><a href="">Lorem Ipsum is simply dummy text</a></li>
+                                <li><a href="">Lorem Ipsum is simply dummy text</a></li>
+                                <li><a href="">Lorem Ipsum is simply dummy text</a></li>
+                            </ul>
+                        </div>
+                        <div id="addComm">
+                            <h2 class="titlesStyle bigTitleStyle bigTitleStyle--smallLet">write comment</h2>
+                            <form action="" id="writeComm">
+                                <label>Name:<input type="text"></label><br>
+
+                                <label>Comment:<textarea name="enterField" id="enterField"></textarea></label><br>
+                                <button id="sendComm" type="submit" class="orange">Post comment</button>
+
+
+                            </form>
+                        </div>
+                        <div id="allComm">
+                            <h2 class="titlesStyle bigTitleStyle bigTitleStyle--smallLet">comments</h2>
+                            <ul>
+
+
+                                <template id="tmpl">
+
+                                    <span></span>
+                                    <h3></h3>
+                                    <p></p>
+
+
+
+
+                                </template>
+
+
+
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+
+                    <footer>
+                        <span>Category: <a href="">Movie</a> </span>
+                        <button id="showComments">Comments: 0</button>
+                        <a href="">Read more</a>
+                    </footer>
+
+                </article>
+
+            </main>
+            <aside>
+                <section id="topStoriesPrew">
+                    <h2><a class="titlesStyle bigTitleStyle" href="">Top stories</a></h2>
+                    <nav>
+                        <ul>
+                            <li class="pink titlesStyle ">Fashion</li>
+                            <li class="orange titlesStyle navActiv">Cinema</li>
+                            <li class="blue titlesStyle">Television</li>
+                        </ul>
+                    </nav>
+                    <ul id="topStoriesPrewFashion" hidden>
+                        <li>
+                            <img src="img/topstoriespic.png" alt="topstoriespic">
+                            <div class="text">
+                                <h4><a href="">Lorem Ipsum is simply dummy text of the printing </a></h4>
+                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s.
+
+
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/topstoriespic.png" alt="topstoriespic">
+                            <div class="text">
+                                <h4><a href="">Lorem Ipsum is simply dummy text of the printing </a></h4>
+                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s.
+
+
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/topstoriespic.png" alt="topstoriespic">
+                            <div class="text">
+                                <h4><a href="">Lorem Ipsum is simply dummy text of the printing </a></h4>
+                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s.
+
+
+                                </p>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <ul id="topStoriesPrewCinema">
+                        <li>
+                            <img src="img/topstoriespic.png" alt="topstoriespic">
+                            <div class="text">
+                                <h4><a href="">Lorem Ipsum is simply dummy text of the printing </a></h4>
+                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s.
+
+
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/topstoriespic.png" alt="topstoriespic">
+                            <div class="text">
+                                <h4><a href="">Lorem Ipsum is simply dummy text of the printing </a></h4>
+                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s.
+
+
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/topstoriespic.png" alt="topstoriespic">
+                            <div class="text">
+                                <h4><a href="">Lorem Ipsum is simply dummy text of the printing </a></h4>
+                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s.
+
+
+                                </p>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <ul id="topStoriesPrewTelevision" hidden>
+                        <li>
+                            <img src="img/topstoriespic.png" alt="topstoriespic">
+                            <div class="text">
+                                <h4><a href="">Lorem Ipsum is simply dummy text of the printing </a></h4>
+                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s.
+
+
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/topstoriespic.png" alt="topstoriespic">
+                            <div class="text">
+                                <h4><a href="">Lorem Ipsum is simply dummy text of the printing </a></h4>
+                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s.
+
+
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/topstoriespic.png" alt="topstoriespic">
+                            <div class="text">
+                                <h4><a href="">Lorem Ipsum is simply dummy text of the printing </a></h4>
+                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s.
+
+
+                                </p>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </section>
+                <section id="archive">
+                    <h2><a class="titlesStyle darkBlue bigTitleStyle" href="">Archives</a></h2>
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="">When an unknown printer took a galley of type and scrambled it to make a
+                                    type
+                                    specimen book.</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="">When an unknown printer took a galley of type and scrambled it to make a
+                                    type
+                                    specimen book.</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="">When an unknown printer took a galley of type and scrambled it to make a
+                                    type
+                                    specimen book.</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="">When an unknown printer took a galley of type and scrambled it to make a
+                                    type
+                                    specimen book.</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="">When an unknown printer took a galley of type and scrambled it to make a
+                                    type
+                                    specimen book.</a>
+                            </p>
+                        </li>
+
+                    </ul>
+                </section>
+
+            </aside>
+        </div>
+        <footer id="mainfooter">
+            <p>Designed by Cssauthor.com</p>
+        </footer>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
